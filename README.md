@@ -10,7 +10,7 @@ Second, we need to somehow get flight data for only the flights we can see out o
 
 Third and finally, we must figure out what we can see out of the window. I am not using my own address for this example but regardless we need to realize that radars show flights on a map top-down. If I choose to filter flights flying over my address, I would not see it out of my window since I would have to look directly up. Instead, we must figure out where on the map we are seeing when looking out at a 20-45 degree angle (likely the angle we would see out of a window, as measured by my level). My window has a ton of trees outside so the view is pretty restricted. We will get more into this later, but I drew a picture of this issue in figure 3.
 
-
+FOR THE FULL WRITE UP SEE THE PDF. I DO NOT LIKE MARKDOWN SO I JUST PASTED THE PDF HERE. PLEASE SEE PDF. IT HAS THE PICTURES.
 Figure 1 - LEDs
 
 Figure 2 - Board
