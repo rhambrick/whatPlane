@@ -1,6 +1,8 @@
 # What Plane Is That?
 ## A flight tracking embedded system project.
 
+![Demonstration of the sample python program you can run without hardware.](https://github.com/rhambrick/whatPlane/blob/main/DEMO.png?raw=true)
+
 ### Intro
 This morning I saw a cool video about a group of guys writing a program that pulled data from flight radars, and displayed it on a screen by their apartment window as a plane flew by. I also live near an airport, and decided to tackle a project like this since I love hands-on projects that you can use as decoration. However, I am strapped for cash at the moment, and I am moving soon, so I will not live near an airport once summer ends… Regardless, here’s a step by step demonstration of how this project can be set up, hopefully enabling you the reader with the information needed to make your own flight info display.
 
