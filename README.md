@@ -157,7 +157,7 @@ void loop() {
 Again, I didn’t compile this code, expect errors! For something you could actually use, here’s a python program you can run on your machine that grabs the flights around the DFW metro area, also attached to the github repo (use latest python version and have the requests library installed):
 
 PYTHON3.11:
-
+```
 import requests
 
 def get_flights_in_bbox(lamin, lomin, lamax, lomax):
@@ -205,3 +205,4 @@ if __name__ == "__main__":
 	# these are for DFW general area, google the bounding box coordinates around your city as desired.
     
 	get_flights_in_bbox(lamin, lomin, lamax, lomax)
+ ```
