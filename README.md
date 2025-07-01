@@ -55,6 +55,7 @@ Figure 9 - LED Matrix Font Grid Example
 I recommend using the Arduino IDE since you can easily look up how to connect ESP based boards to the program and it will flash code to the chip with a click of a button. It also has a library manager that allows easy installation of the libraries you’ll need to run the code. You need to install the HTTPClient, ArduinoJson, Adafruit_Protomatter (LED matrix driver), and Adafruit_GFX (graphics / font system) libraries (as seen in the #includes of the program). From there I suggest reading the code to see how it simply grabs what we need and prints it to the LEDs nicely. I would go deeper into this, but I gave myself a day to document this project and, again, I have no money and therefore no hardware to test this - so it may not work on the first try. But there you have it, the project to get flight data from the sky. This was fun to work through, and the math was simple but fun to work out from scratch on paper.
 
 C++:
+
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
@@ -156,6 +157,7 @@ void loop() {
 Again, I didn’t compile this code, expect errors! For something you could actually use, here’s a python program you can run on your machine that grabs the flights around the DFW metro area, also attached to the github repo (use latest python version and have the requests library installed):
 
 PYTHON3.11:
+
 import requests
 
 def get_flights_in_bbox(lamin, lomin, lamax, lomax):
